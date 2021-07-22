@@ -1,0 +1,33 @@
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252B42;
+    color: #FFFFFF !important;
+
+}
+header{
+    background-image: url(images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link{
+    transition: all 100ms ease;
+}
+
+.nav-link:hover{
+    color: rgb(172, 201, 255) !important;
+}
+
+#social a{
+    margin-left: 20px;
+}
+
+#social #social-a:hover{
+    text-decoration: none !important;
+}
+
+#social a>i{
+    font-size: 19px !important;
+    color: #FFFFFF !important;
+}
