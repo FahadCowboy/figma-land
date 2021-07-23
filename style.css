@@ -6,28 +6,33 @@ body{
 
 }
 header{
+    width: 100%;
     background-image: url(images/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.nav-link{
-    transition: all 100ms ease;
+#social .fab{
+    font-size: 2rem;
 }
 
-.nav-link:hover{
-    color: rgb(172, 201, 255) !important;
+#navbar-toggle{
+    background-image: initial;
+    width: initial;
+    height: initial;
+    vertical-align: middle;
 }
 
-#social a{
-    margin-left: 20px;
+#navbar-toggle .fa-bars{
+    font-size: 1.5rem !important;
 }
 
-#social #social-a:hover{
-    text-decoration: none !important;
+#navbar-toggle-button{
+    font-family: revert;
 }
 
-#social a>i{
-    font-size: 19px !important;
-    color: #FFFFFF !important;
+@media only screen and (max-width: 991px) {
+    #social{
+        margin-top:1.2rem;
+    }
 }
