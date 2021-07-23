@@ -112,5 +112,37 @@ header{
     #hero{
         width: 100% !important;
     }
+
+    #hero h1{
+        font-size: 4rem;
+    }
 }
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+    #social{
+        margin-top:1.2rem;
+    }
+    #hero h1{
+        font-size: 3rem;
+    }
+    
+    #hero {
+        padding: 8rem 0;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 200px) {
+    #social{
+        margin-top:1.2rem;
+    }
+    #hero h1{
+        font-size: 3rem;
+    }
+    
+    #hero {
+        padding: 8rem 0;
+    }
+}
+
+
 
