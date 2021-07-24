@@ -19,11 +19,11 @@ header{
     background-color: #252b4294;
 }
 
-#social .fab{
-    font-size: 2rem;
+.social .fab{
+    font-size: 2rem !important;
 }
 
-#social .fab:hover{
+.social .fab:hover{
     color: #8fc5ff !important;
 }
 
@@ -60,14 +60,14 @@ header{
 
 #hero a{
     border-radius: 2rem;
-    color: #2091F9;
+    color: #2091F9 !important;
     text-decoration: none !important;
     font-weight: 700;
 }
 
 #hero a:hover{
     background-color: #2091F9 !important;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 
 }
 
@@ -82,11 +82,12 @@ header{
 /*========== Features ============*/
 
 
-#fastest a, #testimonial a{
+#fastest a, #testimonial a, .pricing-btn{
     background-color: #2091F9 !important;
-    font-weight: 700;
-    border-radius: 2rem;
+    font-weight: 700 !important;
+    border-radius: 2rem !important;
     text-decoration: none !important;
+    color: #FFFFFF !important;
 }
 
 #fastest a:hover{
@@ -102,14 +103,14 @@ header{
 
 /*========== Lightning fast ============*/
 
-#lightning form>button{
+#lightning form>button,#contact-main button{
     background-color: #2091F9 !important;
     font-weight: 700;
     border-radius: 2rem;
     border: none;
 }
 
-#lightning form>button:hover{
+#lightning form>button:hover,#contact-main button:hover{
     color: #2091F9 !important;
     background-color: #FFFFFF !important;
 }
@@ -119,23 +120,158 @@ header{
     outline: none !important;
 }
 
-#lightning form>input{
+#lightning form>input,#contact-main input, textarea{
     border: none !important;
-    outline: none !important;
+    outline: unset !important;
     margin: 0 1rem 0 0 !important;
     border-radius: 2rem !important;
-    padding: 0 0 0 1.5rem;
+    padding: 0.5rem 0 0.5rem 1.5rem !important;
     font-weight: 700;
 }
 
-#lightning form>input:focus{
+#lightning form>input:focus,#contact-main button:focus{
     border: none !important;
     outline: none !important;
 }
+
+/*========== Lightning fast ============*/
 
 #testimonial{
     background-color: initial;
 }
+
+#testimonial a:hover{
+    color: #2091F9 !important;
+    background-color: #FFFFFF !important;
+}
+
+/*========== Lightning fast ============*/
+.pricing-parent-column{
+    padding: 0 3rem;
+}
+#pricing-card div>p,h5,h1,a{
+    color:  #252B42 !important;
+    text-align: center;
+}
+
+#pricing-card{
+    position: relative;
+    transition: all 0.3s ease;
+}
+#pricing-card:hover {
+    background-color: #2091F9 !important;
+    transform: scale(1.1);
+}
+#pricing-card:hover p {
+    color: #FFFFFF !important;
+}
+#pricing-card:hover h1 {
+    color: #FFFFFF !important;
+}
+#pricing-card:hover h5 {
+    color: #FFFFFF !important;
+}
+#pricing-card:hover a {
+    background-color: #FFFFFF !important;
+    color: #2091F9 !important;
+}
+
+#pricing-card h5{
+    font-size: 1.1rem !important;
+    font-weight: 700;
+}
+
+#pricing-card .doller-amount{
+    font-weight: 700 !important;
+    margin: 0 0.5rem 0 0;
+    font-size: 4.5rem;
+}
+
+#pricing-card .doller-sign-wrapper> h1,p{
+    margin: 0 0 0 0;
+}
+
+#pricing-card .pricing-p-group>p{
+    margin: 0 0 1rem 0;
+}
+
+#pricing-card-footer{
+    background-color: transparent !important;
+}
+
+/*========== Contact Us============*/
+
+#contact-main input, textarea{
+    background-color: #F5F5F5 !important;
+}
+
+#contact-form{
+    border-radius: .8rem;
+}
+
+.contact-us-icons>i{
+    font-size: 2rem;
+    color: #2091F9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -216,6 +352,37 @@ header{
     #testi-big-p{
         padding: 0 !important;
     }
+
+    .contact-right{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+    }
+
+    .contact-items{
+        display: flex;
+        align-items: center;
+        margin: 0 0 2rem 0;
+    }
+
+    .contact-items p{
+        text-align: left;
+        margin: 0 0 0 2rem;
+    }
+
+    .contact-items>span{
+        margin-bottom: 0 !important;
+        width: 32px;
+    }
+
+    .social{
+        margin: 0 0 3rem 0 !important;
+    }
+
+    #map{
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 576px) and (min-width: 400px) {
@@ -246,6 +413,39 @@ header{
     #testi-big-p{
         padding: 0 !important;
     }
+
+    .pricing-parent-column{
+        padding: 0 2.5rem !important;
+    }
+    .contact-right{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+    }
+
+    .contact-items{
+        display: flex;
+        align-items: center;
+        margin: 0 0 2rem 0;
+    }
+
+    .contact-items p{
+        text-align: left;
+        margin: 0 0 0 2rem;
+    }
+
+    .contact-items>span{
+        margin-bottom: 0 !important;
+        width: 32px;
+    }
+
+    .social{
+        margin: 0 0 3rem 0 !important;
+    }
+
+    #map{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 399px){
@@ -274,6 +474,39 @@ header{
     
     #testi-big-p{
         padding: 0 !important;
+    }
+
+    .pricing-parent-column{
+        padding: 0 0.2rem !important;
+    }
+    .contact-right{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+    }
+
+    .contact-items{
+        display: flex;
+        align-items: center;
+        margin: 0 0 2rem 0;
+    }
+
+    .contact-items p{
+        text-align: left;
+        margin: 0 0 0 2rem;
+    }
+
+    .contact-items>span{
+        margin-bottom: 0 !important;
+        width: 32px;
+    }
+
+    .social{
+        margin: 0 0 3rem 0 !important;
+    }
+
+    #map{
+        display: none;
     }
 }
 
