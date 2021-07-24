@@ -70,14 +70,25 @@ header{
 
 /*========== Features ============*/
 
+
 #feature-row h3{
     font-size: 1.5rem;
     font-weight: 700;
 }
 
+/*========== Features ============*/
 
+#fastest a{
+    background-color: #2091F9 !important;
+    font-weight: 700;
+    border-radius: 2rem;
+    text-decoration: none !important;
+}
 
-
+#fastest a:hover{
+    color: #2091F9 !important;
+    background-color: #FFFFFF !important;
+}
 
 
 
