@@ -219,6 +219,7 @@ header{
     }
     #video iframe {
         height: 277px;
+        margin: -10px;
     }
 
     #lightning form{
@@ -244,6 +245,15 @@ header{
     }
     #video iframe {
         height: 184px;
+    }
+
+    #lightning form{
+        flex-direction: column;
+    }
+
+    #lightning form>input{
+        padding: 0.5rem 2rem;
+        margin: 0 0 1rem 0 !important;
     }
 }
 
