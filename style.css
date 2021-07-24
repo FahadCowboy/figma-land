@@ -60,12 +60,15 @@ header{
 
 #hero a{
     border-radius: 2rem;
-    color: #252B42;
+    color: #2091F9;
     text-decoration: none !important;
+    font-weight: 700;
 }
 
 #hero a:hover{
-    background-color: #8fc5ff !important;
+    background-color: #2091F9 !important;
+    color: #FFFFFF;
+
 }
 
 /*========== Features ============*/
@@ -77,6 +80,7 @@ header{
 }
 
 /*========== Features ============*/
+
 
 #fastest a{
     background-color: #2091F9 !important;
@@ -90,6 +94,11 @@ header{
     background-color: #FFFFFF !important;
 }
 
+/*========== Features ============*/
+
+#video iframe{
+    height:460px;
+}
 
 
 
@@ -116,9 +125,23 @@ header{
 
 
 
+@media only screen and (max-width: 1199px)  and (min-width: 992px) {
+    #social{
+        margin-top:1.2rem;
+    }
 
+    #hero{
+        width: 80% !important;
+    }
 
+    #hero h1{
+        font-size: 4rem;
+    }
 
+    #video iframe {
+        height: 385px;
+    }
+}
 
 @media only screen and (max-width: 991px) {
     #social{
@@ -131,6 +154,10 @@ header{
 
     #hero h1{
         font-size: 4rem;
+    }
+
+    #video iframe {
+        height: 385px;
     }
 }
 
@@ -145,9 +172,12 @@ header{
     #hero {
         padding: 8rem 0;
     }
+    #video iframe {
+        height: 285px;
+    }
 }
 
-@media only screen and (max-width: 576px) and (min-width: 200px) {
+@media only screen and (max-width: 576px) and (min-width: 400px) {
     #social{
         margin-top:1.2rem;
     }
@@ -157,6 +187,25 @@ header{
     
     #hero {
         padding: 8rem 0;
+    }
+    #video iframe {
+        height: 277px;
+    }
+}
+
+@media only screen and (max-width: 399px){
+    #social{
+        margin-top:1.2rem;
+    }
+    #hero h1{
+        font-size: 3rem;
+    }
+    
+    #hero {
+        padding: 8rem 0;
+    }
+    #video iframe {
+        height: 184px;
     }
 }
 
