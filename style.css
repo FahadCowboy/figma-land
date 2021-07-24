@@ -82,7 +82,7 @@ header{
 /*========== Features ============*/
 
 
-#fastest a{
+#fastest a, #testimonial a{
     background-color: #2091F9 !important;
     font-weight: 700;
     border-radius: 2rem;
@@ -131,6 +131,10 @@ header{
 #lightning form>input:focus{
     border: none !important;
     outline: none !important;
+}
+
+#testimonial{
+    background-color: initial;
 }
 
 
@@ -188,6 +192,10 @@ header{
     #video iframe {
         height: 385px;
     }
+
+    #testi-big-p{
+        padding: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 577px) {
@@ -203,6 +211,10 @@ header{
     }
     #video iframe {
         height: 285px;
+    }
+
+    #testi-big-p{
+        padding: 0 !important;
     }
 }
 
@@ -230,6 +242,10 @@ header{
         padding: 0.5rem 2rem;
         margin: 0 0 1rem 0 !important;
     }
+    
+    #testi-big-p{
+        padding: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 399px){
@@ -254,6 +270,10 @@ header{
     #lightning form>input{
         padding: 0.5rem 2rem;
         margin: 0 0 1rem 0 !important;
+    }
+    
+    #testi-big-p{
+        padding: 0 !important;
     }
 }
 
