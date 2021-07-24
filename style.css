@@ -100,9 +100,38 @@ header{
     height:460px;
 }
 
+/*========== Lightning fast ============*/
 
+#lightning form>button{
+    background-color: #2091F9 !important;
+    font-weight: 700;
+    border-radius: 2rem;
+    border: none;
+}
 
+#lightning form>button:hover{
+    color: #2091F9 !important;
+    background-color: #FFFFFF !important;
+}
 
+#lightning form>button:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+#lightning form>input{
+    border: none !important;
+    outline: none !important;
+    margin: 0 1rem 0 0 !important;
+    border-radius: 2rem !important;
+    padding: 0 0 0 1.5rem;
+    font-weight: 700;
+}
+
+#lightning form>input:focus{
+    border: none !important;
+    outline: none !important;
+}
 
 
 
@@ -190,6 +219,15 @@ header{
     }
     #video iframe {
         height: 277px;
+    }
+
+    #lightning form{
+        flex-direction: column;
+    }
+
+    #lightning form>input{
+        padding: 0.5rem 2rem;
+        margin: 0 0 1rem 0 !important;
     }
 }
 
