@@ -68,7 +68,12 @@ header{
     background-color: #8fc5ff !important;
 }
 
+/*========== Features ============*/
 
+#feature-row h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
 
 
