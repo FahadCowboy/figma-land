@@ -166,6 +166,7 @@ header{
 #pricing-card{
     position: relative;
     transition: all 0.3s ease;
+    padding: 3rem 0;
 }
 #pricing-card:hover {
     background-color: #2091F9 !important;
@@ -377,8 +378,8 @@ header{
         background-color: #121329b8;
     }
 
-    #social{
-        margin-top:1.2rem;
+    .social{
+        margin: 1.5rem 0 1.5rem 0 !important;
     }
 
     #hero{
@@ -439,9 +440,7 @@ header{
 }
 
 @media only screen and (max-width: 768px) and (min-width: 577px) {
-    #social{
-        margin-top:1.2rem;
-    }
+    
     #hero h1{
         font-size: 3rem;
     }
@@ -480,7 +479,7 @@ header{
     }
 
     .social{
-        margin: 0 0 3rem 0 !important;
+        margin: 1.5rem 0 1.5rem 0 !important;
     }
 
     #map{
@@ -494,9 +493,7 @@ header{
 }
 
 @media only screen and (max-width: 576px) and (min-width: 400px) {
-    #social{
-        margin-top:1.2rem;
-    }
+    
     #hero h1{
         font-size: 3rem;
     }
@@ -548,7 +545,7 @@ header{
     }
 
     .social{
-        margin: 0 0 3rem 0 !important;
+        margin: 1.5rem 0 1.5rem 0 !important;
     }
 
     #map{
@@ -557,9 +554,7 @@ header{
 }
 
 @media only screen and (max-width: 399px){
-    #social{
-        margin-top:1.2rem;
-    }
+    
     #hero h1{
         font-size: 3rem;
     }
@@ -610,7 +605,7 @@ header{
     }
 
     .social{
-        margin: 0 0 3rem 0 !important;
+        margin: 1.5rem 0 1.5rem 0 !important;
     }
 
     #map{
