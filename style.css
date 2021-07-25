@@ -409,7 +409,6 @@ header{
 
     #nav-ul, #nav-ul ul{
         border: 1px solid #7ec4ff;
-        background-color: ;
     }
     
     #nav-ul li{
@@ -490,6 +489,11 @@ header{
         padding: 0 7rem !important;
     }
 
+    #contact-form {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
 }
 
 @media only screen and (max-width: 576px) and (min-width: 400px) {
@@ -551,6 +555,11 @@ header{
     #map{
         display: none;
     }
+
+    #contact-form {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
 @media only screen and (max-width: 399px){
@@ -610,6 +619,11 @@ header{
 
     #map{
         display: none;
+    }
+
+    #contact-form {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
