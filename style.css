@@ -328,8 +328,12 @@ header{
 
 
 
-
-
+#contact{
+    box-sizing: border-box !important;
+}
+#contact-main{
+    box-sizing: border-box !important;
+}
 
 
 
