@@ -24,7 +24,7 @@ header{
 }
 
 .social .fab:hover{
-    color: #8fc5ff !important;
+    color: #2091F9 !important;
 }
 
 #navbar-toggle{
@@ -43,7 +43,16 @@ header{
 }
 
 .nav-link:hover{
-    color: #8fc5ff !important;
+    color: #2091F9 !important;
+}
+
+#dropdown{
+    background-color: #252b4294 !important;
+}
+
+#dropdown li>a:hover{
+    background-color: transparent!important;
+    color: #2091F9 !important;
 }
 
 #hero{
@@ -201,6 +210,7 @@ header{
 
 /*========== Contact Us============*/
 
+
 #contact-main input, textarea{
     background-color: #F5F5F5 !important;
 }
@@ -214,10 +224,77 @@ header{
     color: #2091F9;
 }
 
+/*========== Footer============*/
+
+.footer-list-group ul li{
+    background-color: transparent;
+}
+
+.footer-list-group ul>li>a{
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+
+.footer-list-group ul>li>a:hover{
+    color: #2091F9 !important;
+    text-decoration: underline !important;
+}
+
+.footer-contact-items{
+    display: flex;
+    align-items: center;
+    margin: 0 0 2rem 0;
+}
+
+.footer-contact-items p{
+    text-align: left;
+    margin: 0 0 0 2rem;
+}
+
+.footer-contact-items>span{
+    margin-bottom: 0 !important;
+    width: 32px;
+}
+
+#credit{
+    border-top: 1px solid #ffffff30;
+}
+
+#credit #credit-top p{
+    letter-spacing: 2px !important;
+    color: #cacaca !important;
+}
+
+#credit #credit-top p>strong,a{
+    color: #2091F9 !important;
+    text-decoration: none !important;
+}
+
+#credit #credit-top p>strong>a:hover{
+    text-decoration: underline !important;
+}
 
 
+#credit>a{
+    position: fixed;
+    right: 4%;
+    bottom: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none !important;
+}
 
+#credit>a>span{
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    margin-top: 0.7rem;
+}
 
+#credit>a .fa-hand-point-up{
+    color: #2091F9 !important;
+    font-size: 3rem;
+}
 
 
 
@@ -332,6 +409,15 @@ header{
     #testi-big-p{
         padding: 0 !important;
     }
+
+    .contact-items{
+        margin-bottom: 3rem !important;
+    }
+    
+    #contact-form{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 577px) {
@@ -381,6 +467,10 @@ header{
 
     #map{
         display: none;
+    }
+
+    .pricing-parent-column {
+        padding: 0 7rem !important;
     }
 
 }
