@@ -293,25 +293,8 @@ header{
 
 #credit>a .fa-hand-point-up{
     color: #2091F9 !important;
-    font-size: 3rem;
+    font-size: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -390,6 +373,10 @@ header{
 }
 
 @media only screen and (max-width: 991px) {
+    #nav-bg{
+        background-color: #121329b8;
+    }
+
     #social{
         margin-top:1.2rem;
     }
@@ -418,6 +405,37 @@ header{
         padding-left: 3rem;
         padding-right: 3rem;
     }
+
+    #nav-ul, #nav-ul ul{
+        border: 1px solid #7ec4ff;
+        background-color: ;
+    }
+    
+    #nav-ul li{
+        border-bottom: 1px solid #7ec4ff;
+    }
+    
+    #nav-ul li:last-child{
+        border-bottom: none! important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media only screen and (max-width: 768px) and (min-width: 577px) {
